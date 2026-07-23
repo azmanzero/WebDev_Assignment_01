@@ -1,0 +1,36 @@
+ 
+ /* nav section styling */
+ *{
+   font-family: "Inter Tight", sans-serif;
+ }
+
+ .nav-parent {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 50px;
+    padding: 0px 100px;
+ }
+.nav-child {
+    display: flex;
+    list-style:none;
+    align-items: center;
+    gap: 35px;
+    cursor: pointer;
+}
+.common-btn {
+   background-color: #1d4ed8;
+   color: #ffffff;
+   border: none;
+   border-radius: 12px;
+}
+.b1 {
+    padding: 12px 38px;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: #ffffff;
+    color: #1d4ed8;
+}
+
+/* Hero section styling */
